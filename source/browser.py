@@ -44,6 +44,7 @@ class Browser:
         self.options.add_argument("--disable-dev-shm-usage")
         self.options.add_argument("--disable-browser-side-navigation")
         self.options.add_argument("--disable-gpu")
+        self.options.add_experimental_option('excludeSwitches', ['enable-logging'])
         self._driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=self.options)
         self.user_agent = self._driver.execute_script("return navigator.userAgent")
         self._driver.set_window_position(-2000, 0)

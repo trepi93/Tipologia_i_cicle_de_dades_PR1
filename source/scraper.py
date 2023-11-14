@@ -1,10 +1,10 @@
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.select import Select
 import time
-from source.browser import FailableClick
-from source.browser import Click
-from source.browser import Target
-from source.whoscored_parser import WhoScoredParser
+from browser import FailableClick
+from browser import Click
+from browser import Target
+from whoscored_parser import WhoScoredParser
 
 
 # Creem la classe que actuarà pròpiament d'scrapper. Farà els clics i extreurà la informació (que prèviament sol·licitarà
