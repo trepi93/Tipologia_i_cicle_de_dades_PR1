@@ -11,9 +11,9 @@ El repositori té la següent estructura:
 
   - `source`: Aquest directori conté el codi font per la descàrrega.
   - `main.py`: conté l’script que acaba executant tot el webscraping
-  - `browser.py´: conté el codi necessari per aixecar un browser amb la llibreria Selenium
-  - `whoscored_parser.py´: conté el codi necessari per parsejar la web whoscored.com, és a dir per extreure aquells elements que volem.
-  - `scraper.py´: conté el codi que fa possible scrapejar la web, a partir dels dos fitxers anteriors. És a dir, conté el codi que navega per la web (a partir de les classes de browser.py) i que extreu les dades (amb funcions que criden les dades al fitxer whoscored_parser.py).
+  - `browser.py`: conté el codi necessari per aixecar un browser amb la llibreria Selenium
+  - `whoscored_parser.py`: conté el codi necessari per parsejar la web whoscored.com, és a dir per extreure aquells elements que volem.
+  - `scraper.py`: conté el codi que fa possible scrapejar la web, a partir dels dos fitxers anteriors. És a dir, conté el codi que navega per la web (a partir de les classes de browser.py) i que extreu les dades (amb funcions que criden les dades al fitxer whoscored_parser.py).
 - `dataset`: Aquest directori contindrà el csv generat.
 - `requirements.txt`: El fitxer de text amb les llibreries de Python necessàries per aquest projecte.
 - `README.md`: L'arxiu actual, que proporciona un resum del projecte.
