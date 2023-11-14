@@ -42,14 +42,14 @@ pip install -r requirements.txt
 
 4. Executa l'scrapping:
 
-   - L'script principal per realitzar l'scrapping i per tant, a executar és "main.py". 
-   - Podeu modificar els paràmetres d'entrada de la funció scraper.scrape() segons l'any a descarregar i les lligues d'interès. En cas de les lligues, cal que mantingueu el nom tal i com es troben en l'script i en el cas dels anys, el format és 'YYYY/YYYY'.
-   - Per exemple, per a descarregar la temporada 21-22 dela lliga espanyola caldria fer la següent modificació al fitxer main.py:
-    scraper.scrape(["La Liga"], '2021/2022')
-   - Per executar la descàrrega de dades, executeu l'ordre següent dins de la carpeta source:
+ Per executar l'scrapper useu la següent línia de comandes al terminal (per exemple per descarregar les dades de La Liga i la Serie A de la temporada 2023/2024)
+   ```bash
+    python source/main.py --leagues "LaLiga" "Serie A" --season "2023/2024"
+   ```
+o per descarregar les dades de La Liga d'un sol any (temporada 2022/2023) podeu fer:
 
    ```bash
-   python main.py
+    python source/main.py --leagues "LaLiga" --season "2022/2023"
    ```
 
    El csv es generarà a la carpeta dataset.
