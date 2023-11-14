@@ -24,7 +24,7 @@ Per començar amb el projecte, segueix els següents passos.
 
 0. Webdriver:
 
-És necessari que el lloc des d'on s'executi tingui un navegador instal·lat
+És necessari que el lloc des d'on s'executi tingui un navegador Chrome instal·lat. Es pot instal·lar aquí: https://support.google.com/chrome/answer/95346?hl=es&co=GENIE.Platform%3DDesktop
 
 1. Clona el repositori a la teva màquina local:
 
