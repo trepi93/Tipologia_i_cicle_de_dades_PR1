@@ -59,8 +59,8 @@ o per descarregar les dades de La Liga d'un sol any (temporada 2022/2023) podeu 
    El csv es generarà a la carpeta dataset.
 
    El dataset que genera el codi tal com està ara es pot consultar a la carpeta dataset del mateix repositori. També hi ha un dataset fictici (per temes de propietat intel·lectual) a Zenodo: https://doi.org/10.5281/zenodo.10120707. El dataset que hi ha conté les estadístiques dels partits de lliga de la temporada 2022-2023 de La Liga, Premier League, Serie A, Bundesliga i Ligue 1. La comanda per descarregar-lo seria:
-
-      ```bash
+      
+   ```bash
     python source/main.py --leagues "LaLiga" "Bundesliga" "Serie A" "Ligue 1" "Premier League" --season "2022/2023"
    ```
 
