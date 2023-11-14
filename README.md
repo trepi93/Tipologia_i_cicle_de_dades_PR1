@@ -22,6 +22,9 @@ El repositori té la següent estructura:
 
 Per començar amb el projecte, segueix els següents passos.
 
+0. Webdriver
+És necessari que el lloc des d'on s'executi tingui un navegador instal·lat
+
 1. Clona el repositori a la teva màquina local:
 
 ```bash
