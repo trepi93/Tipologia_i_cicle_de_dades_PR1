@@ -10,7 +10,7 @@ args = parser.parse_args()
 
 
 # Realitzem el webscraping, servint-nos de la classe WhoScoredScreapper (que és l'scraper pròpiament) i del navegador
-# que aixeca la classse browser.
+# que aixeca la classe browser.
 with Browser() as browser:
     print("Comprovem el user agent: ", browser.user_agent)
     scraper = WhoScoredScrapper(browser)
