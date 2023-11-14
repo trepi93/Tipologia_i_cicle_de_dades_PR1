@@ -135,7 +135,7 @@ class WhoScoredScrapper:
     def _data2csv(self, filename):
 
         # Crea el fitxer si no existeix, i si existeix el sobreescriu
-        with open("../dataset/" + filename, 'w+') as csv_file:
+        with open("./dataset/" + filename, 'w+') as csv_file:
             # Anem afegint cada array separada per ";"
             for item in self.data:
                 row = ";".join(map(str, item))
